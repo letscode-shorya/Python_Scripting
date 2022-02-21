@@ -1,0 +1,6 @@
+---
+tasks:
+- name: install apache
+  yum:
+    name: httpd
+    state: present
